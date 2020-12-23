@@ -1,0 +1,33 @@
+div#containerUtama {
+    position: fixed;
+    background: green;
+    top: 0;
+    z-index: 10000;
+    padding: 10px;
+    right: 0;
+}
+div#containerUtama h3 {
+    font-size: 14px;
+    color: white;
+}
+ul#warpToko {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background: green;
+    padding: 5px;
+    list-style: none;
+    color: white;
+}
+div#injectContent {
+    position: relative;
+}
+button#inject {
+    border: none;
+    background: #00aeff;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
